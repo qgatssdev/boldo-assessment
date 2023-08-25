@@ -78,20 +78,21 @@ export const StyledBottomContainer = styled('div')({
 });
 
 export const StyledImageTwo = styled('img')({
-  maxWidth: '292px',
+  maxWidth: '287px',
   maxHeight: '165px',
   width: '40%',
-  marginRight: '20px',
+  marginRight: '5px',
 });
 
 export const StyledImageThree = styled('img')({
-  maxWidth: '315px',
+  maxWidth: '310px',
   maxHeight: '165px',
   width: '60%',
+  marginLeft: '5px',
 });
 
 export const StyledMarqueeContainer = styled('div')({
-  marginTop: '5%',
+  marginTop: '10%',
   marginLeft: '7%',
   marginRight: '7%',
 

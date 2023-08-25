@@ -3,6 +3,7 @@ import Hero from '@templates/hero';
 import Metrics from '@templates/metrics';
 import Services from '@templates/services';
 import OurBlog from '@templates/our-blog';
+import Footer from '@templates/footer';
 import scroll from '@animations/scroll';
 import {
   StyledContainer,
@@ -22,6 +23,7 @@ const Home = () => {
       <Services />
       <Metrics />
       <OurBlog />
+      <Footer />
     </StyledContainer>
   );
 };

@@ -2,8 +2,8 @@ import { styled } from '@mui/material';
 
 export const StyledServiceContainer = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
-  paddingTop: '5%',
-  paddingBottom: '5%',
+  paddingTop: '100px',
+  paddingBottom: '100px',
 }));
 
 export const StyledHeader = styled('h1')(({ theme }) => ({
