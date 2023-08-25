@@ -1,5 +1,4 @@
 import { styled } from '@mui/material';
-import { textAlign, width } from '@mui/system';
 
 export const StyledBlogContainer = styled('div')({
   paddingTop: '10%',
@@ -19,18 +18,34 @@ export const StyledWrapper = styled('div')({
   display: 'flex',
   marginLeft: '10%',
   marginRight: '10%',
+  justifyContent: 'space-between',
+
+  '@media (max-width:1200px)': {
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '50px',
+  },
 });
 
-export const StyledParagraph = styled('div')(({ theme }) => ({
+export const StyledParagraph = styled('p')(({ theme }) => ({
   fontSize: '36px',
   lineHeight: '56px',
   fontFamily: theme.typography.manrope.fontFamily,
   fontWeight: 400,
   maxWidth: '500px',
+
+  '@media (max-width:576px)': {
+    fontSize: '24px',
+    lineHeight: '42px',
+  },
+
+  '@media (max-width:1200px)': {
+    textAlign: 'center',
+  },
 }));
 
 export const StyledOurBlogContainer = styled('div')({
-  marginTop: '10%',
+  marginTop: '200px',
   width: '100%',
 });
 
@@ -50,4 +65,34 @@ export const StyledBlogSubtitle = styled('p')(({ theme }) => ({
   maxWidth: '842px',
   margin: '0 auto',
   textAlign: 'center',
+
+  '@media (max-width:576px)': {
+    fontSize: '24px',
+    lineHeight: '42px',
+  },
 }));
+
+export const StyledAccordionContainer = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '30px',
+});
+
+export const StyledBlogPostsContainer = styled('div')({
+  display: 'grid',
+  gridTemplateColumns: '1fr 1fr 1fr',
+  gap: '80px 0',
+  marginTop: '80px',
+  marginLeft: '10%',
+  marginRight: '10%',
+
+  '@media (max-width:1200px)': {
+    gridTemplateColumns: '1fr',
+  },
+});
+
+export const StyledButtonContainer = styled('div')({
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '80px',
+});
