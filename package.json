@@ -23,6 +23,7 @@
     "@assets": "link:./src/assets",
     "@atoms": "link:./src/components/atoms",
     "@templates": "link:./src/components/templates",
+    "@molecules": "link:./src/components/molecules",
     "@styles": "link:./src/styles",
     "@animations": "link:./src/animations",
     "@providers": "link:./src/providers",
