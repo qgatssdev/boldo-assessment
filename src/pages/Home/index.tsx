@@ -1,9 +1,9 @@
-import Header from '@templates/header';
-import Hero from '@templates/hero';
-import Metrics from '@templates/metrics';
-import Services from '@templates/services';
-import OurBlog from '@templates/our-blog';
-import Footer from '@templates/footer';
+import Header from '@templates/general/header';
+import Hero from '@templates/home/hero';
+import Metrics from '@templates/home/metrics';
+import Services from '@templates/home/services';
+import OurBlog from '@templates/home/our-blog';
+import Footer from '@templates/general/footer';
 import scroll from '@animations/scroll';
 import {
   StyledContainer,
