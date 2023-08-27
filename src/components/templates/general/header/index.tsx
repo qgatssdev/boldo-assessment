@@ -1,24 +1,17 @@
-import {
-  StyledHeaderContainer,
-  StyledListContainer,
-  StyledListItems,
-} from './styles';
-import { BoldoLogo } from 'components/atoms/icons';
-import { Button } from 'components/atoms/button';
+import MediaQuery from 'react-responsive';
+import DesktopHeader from './desktop';
+import MobileHeader from './mobile';
 
 const Header = () => {
   return (
-    <StyledHeaderContainer>
-      <BoldoLogo />
-      <StyledListContainer>
-        <StyledListItems>Product</StyledListItems>
-        <StyledListItems>Services</StyledListItems>
-        <StyledListItems>About</StyledListItems>
-        <StyledListItems>
-          <Button size={'sm'} label='Log in' transparent />
-        </StyledListItems>
-      </StyledListContainer>
-    </StyledHeaderContainer>
+    <>
+      <MediaQuery minWidth={0} maxWidth={767}>
+        <MobileHeader />
+      </MediaQuery>
+      <MediaQuery minWidth={768}>
+        <DesktopHeader />
+      </MediaQuery>
+    </>
   );
 };
 
