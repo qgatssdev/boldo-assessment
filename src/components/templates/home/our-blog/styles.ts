@@ -86,8 +86,12 @@ export const StyledBlogPostsContainer = styled('div')({
   marginLeft: '10%',
   marginRight: '10%',
 
-  '@media (max-width:1200px)': {
+  '@media (max-width:992px)': {
     gridTemplateColumns: '1fr',
+  },
+
+  '@media (min-width:992px) and (max-width:1200px)': {
+    gridTemplateColumns: '1fr 1fr',
   },
 });
 
