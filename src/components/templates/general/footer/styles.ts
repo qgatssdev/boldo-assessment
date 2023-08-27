@@ -45,7 +45,7 @@ export const StyledHeader = styled('h1')(({ theme }) => ({
     lineHeight: '22px',
   },
 
-  '@media (min-width:576px)': {
+  '@media (min-width:576px) and (max-width:992px)': {
     fontSize: '28px',
     lineHeight: '42px',
   },
@@ -72,6 +72,10 @@ export const StyledInput = styled('input')(({ theme }) => ({
   fontSize: '20px',
   color: theme.palette.common.black,
 
+  '&:focus': {
+    outline: 'none',
+  },
+
   '@media (max-width:768px)': {
     width: '270px',
     fontSize: '12px',
@@ -80,8 +84,8 @@ export const StyledInput = styled('input')(({ theme }) => ({
 }));
 
 export const StyledButton = styled('button')(({ theme }) => ({
-  border: `2px solid #65E4A3`,
-  background: '#65E4A3',
+  border: `2px solid ${theme.palette.secondary.main}`,
+  background: theme.palette.secondary.main,
   borderRadius: '56px',
   padding: '16px 56px',
   fontFamily: theme.typography.openSans.fontFamily,
@@ -193,7 +197,7 @@ export const StyledHiring = styled('div')(({ theme }) => ({
   width: '72px',
   height: '30px',
   borderRadius: '120px',
-  background: '#65E4A3',
+  background: theme.palette.secondary.main,
   textAlign: 'center',
   paddingTop: '6px',
   color: theme.palette.common.black,

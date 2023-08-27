@@ -21,6 +21,14 @@ export const StyledSmallButton = styled(ButtonConstant, {
   background: transparent ? 'none' : theme.palette.primary.main,
   color: transparent ? 'none' : theme.palette.common.white,
   fontSize: '16px',
+  transition: '1s',
+
+  '&:hover': {
+    background: transparent ? theme.palette.primary.main : 'none',
+    color: transparent
+      ? theme.palette.common.white
+      : theme.palette.primary.main,
+  },
 }));
 
 export const StyledMediumButton = styled(ButtonConstant, {
@@ -32,6 +40,14 @@ export const StyledMediumButton = styled(ButtonConstant, {
   background: transparent ? 'none' : theme.palette.primary.main,
   color: transparent ? 'none' : theme.palette.common.white,
   fontSize: '20px',
+  transition: '1s',
+
+  '&:hover': {
+    background: transparent ? theme.palette.primary.main : 'none',
+    color: transparent
+      ? theme.palette.common.white
+      : theme.palette.primary.main,
+  },
 }));
 
 export const StyledLargeButton = styled(ButtonConstant, {
@@ -43,4 +59,12 @@ export const StyledLargeButton = styled(ButtonConstant, {
   background: transparent ? 'none' : theme.palette.primary.main,
   color: transparent ? 'none' : theme.palette.common.white,
   fontSize: '20px',
+  transition: '1s',
+
+  '&:hover': {
+    background: transparent ? theme.palette.primary.main : 'none',
+    color: transparent
+      ? theme.palette.common.white
+      : theme.palette.primary.main,
+  },
 }));

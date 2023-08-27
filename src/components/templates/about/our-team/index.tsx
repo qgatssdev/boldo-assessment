@@ -21,8 +21,8 @@ const OurTeam = () => {
     <StyledOTContainer>
       <StyledTextsContainer>
         <StyledTextHeading>Our team</StyledTextHeading>
-        <StyledSubtitle>The people behind the work</StyledSubtitle>
-        <StyledInfo>
+        <StyledSubtitle data-animation='header'>The people behind the work</StyledSubtitle>
+        <StyledInfo data-animation='paragraph'>
           Conversion angel investor entrepreneur first mover advantage.
           Handshake infographic mass market crowdfunding iteration. Traction
           stock user experience deployment beta innovator incubator focus.

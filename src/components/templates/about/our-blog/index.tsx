@@ -1,18 +1,27 @@
-import { StyledContainer, StyledHeading, StyledSub, StyledHR, StyledClaimWrapper, StyledClaimContainer, StyledClaim, StyledClaimText, StyledClaimSpan } from './styles';
+import {
+  StyledContainer,
+  StyledHeading,
+  StyledSub,
+  StyledHR,
+  StyledClaimWrapper,
+  StyledClaimContainer,
+  StyledClaim,
+  StyledClaimText,
+  StyledClaimSpan,
+} from './styles';
 
 const OurBlog = () => {
   return (
     <StyledContainer>
       <StyledHeading>Our Blog</StyledHeading>
-      <StyledSub>
+      <StyledSub data-animation='header'>
         Value proposition accelerator product management venture
       </StyledSub>
       <StyledHR />
       <StyledClaimWrapper>
         <StyledClaimContainer>
           <StyledClaim>
-            We are{' '}
-            <StyledClaimSpan>commited</StyledClaimSpan>
+            We are <StyledClaimSpan>commited</StyledClaimSpan>
           </StyledClaim>
           <StyledClaimText>
             Conversion angel investor entrepreneur first mover advantage.

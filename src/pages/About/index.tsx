@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { split } from 'animations/text';
 import Header from 'components/templates/general/header';
 import Footer from 'components/templates/general/footer';
 import OurNumbers from 'components/templates/about/our-numbers';
@@ -14,6 +16,10 @@ import {
 } from './styles';
 
 const About = () => {
+  useEffect(() => {
+    split();
+});
+
   return (
     <div>
       <StyledHeaderContainer>

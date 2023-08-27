@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { split } from 'animations/text';
 import Header from 'components/templates/general/header';
 import Footer from 'components/templates/general/footer';
 import { Button } from 'components/atoms/button';
@@ -21,6 +23,10 @@ import {
 } from './styles';
 
 const Blog = () => {
+  useEffect(() => {
+    split();
+  });
+
   return (
     <div>
       <Header />
@@ -33,7 +39,7 @@ const Blog = () => {
             <StyledCategory>Category</StyledCategory>
             <StyledDate>November 22, 2021</StyledDate>
           </StyledFlexContainer>
-          <StyledTitle>
+          <StyledTitle data-animation='header'>
             Pitch termsheet backing validation focus release.
           </StyledTitle>
           <StyledFlexContainer>

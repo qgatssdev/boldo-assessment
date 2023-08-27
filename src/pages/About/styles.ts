@@ -1,9 +1,9 @@
 import { styled } from '@mui/material';
 
-export const StyledHeaderContainer = styled('div')({
-  background: '#65E4A3',
+export const StyledHeaderContainer = styled('div')(({theme}) => ({
+  background: theme.palette.secondary.main,
   paddingBottom: '100px',
-});
+}));
 
 export const StyledWrapper = styled('div')({
   marginLeft: '7%',

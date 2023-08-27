@@ -4,8 +4,8 @@ const OurStory = () => {
   return (
     <StyledOSContainer>
       <StyledHeading>Our story</StyledHeading>
-      <StyledSubtitle>Handshake infographic mass market crowdfunding iteration.</StyledSubtitle>
-      <StyledSubtText>
+      <StyledSubtitle data-animation='header'>Handshake infographic mass market crowdfunding iteration.</StyledSubtitle>
+      <StyledSubtText data-animation='paragraph'>
         Conversion angel investor entrepreneur first mover advantage. Handshake
         infographic mass market crowdfunding iteration. Traction stock user
         experience deployment beta innovator incubator focus. Sales user

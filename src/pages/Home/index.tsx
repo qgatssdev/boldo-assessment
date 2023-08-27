@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import { split } from 'animations/text';
 import Header from 'components/templates/general/header';
 import Hero from 'components/templates/home/hero';
 import Metrics from 'components/templates/home/metrics';
@@ -7,6 +9,10 @@ import Footer from 'components/templates/general/footer';
 import { StyledContainer, StyledEclipse, StyledHeroContainer } from './styles';
 
 const Home = () => {
+  useEffect(() => {
+    split();
+});
+
   return (
     <StyledContainer>
       <StyledEclipse
