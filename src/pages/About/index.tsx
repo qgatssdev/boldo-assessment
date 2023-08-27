@@ -1,6 +1,9 @@
 import Header from '@templates/general/header';
+import Footer from '@templates/general/footer';
 import OurNumbers from '@templates/about/our-numbers';
 import OurStory from '@templates/about/our-story';
+import OurTeam from '@templates/about/our-team';
+import OurBlog from '@templates/about/our-blog';
 import {
   StyledAboutTitle,
   StyledHeaderContainer,
@@ -31,6 +34,9 @@ const About = () => {
       </StyledHeaderContainer>
       <OurNumbers />
       <OurStory />
+      <OurTeam />
+      <OurBlog />
+      <Footer />
     </div>
   );
 };
