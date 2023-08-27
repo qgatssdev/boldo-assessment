@@ -1,10 +1,11 @@
 type Props = {
   fontSize?: number;
+  onClick?: () => void;
 };
 
-export const BoldoLogo = ({ fontSize = 43 }: Props) => {
+export const BoldoLogo = ({ fontSize = 43, onClick }: Props) => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: 2, cursor: 'pointer' }} onClick={onClick}>
       <svg
         width='26'
         height='34'
@@ -21,7 +22,7 @@ export const BoldoLogo = ({ fontSize = 43 }: Props) => {
           fill='#0A2640'
         />
       </svg>
-      <p style={{ fontSize: fontSize }}>Boldo</p>
+      <p style={{ fontSize: fontSize, fontFamily: 'Manrope', color: '#0A2640' }}>Boldo</p>
     </div>
   );
 };
