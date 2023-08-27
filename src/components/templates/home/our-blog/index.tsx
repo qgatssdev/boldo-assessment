@@ -2,10 +2,7 @@ import Accordion from 'components/molecules/accordion';
 import BlogCard from 'components/molecules/blog-card';
 import { Button } from 'components/atoms/button';
 import { blogPosts, BlogPostsProps } from 'mockdata/blogposts';
-import {
-  AccordionData,
-  accordionData,
-} from 'mockdata/accordionData';
+import { AccordionData, accordionData } from 'mockdata/accordionData';
 import {
   StyledBlogContainer,
   StyledImageHero,
@@ -24,7 +21,7 @@ const OurBlog = () => {
     <StyledBlogContainer>
       <StyledImageHero src={require('assets/office.png')} alt='office' />
       <StyledWrapper>
-        <StyledParagraph>
+        <StyledParagraph data-animation='paragraph'>
           We connect our customers with the best, and help them keep up-and stay
           open.
         </StyledParagraph>
@@ -36,7 +33,7 @@ const OurBlog = () => {
       </StyledWrapper>
       <StyledOurBlogContainer>
         <StyledBlogHeading>Our Blog</StyledBlogHeading>
-        <StyledBlogSubtitle>
+        <StyledBlogSubtitle data-animation='paragraph'>
           Value proposition accelerator product management venture
         </StyledBlogSubtitle>
         <StyledBlogPostsContainer>

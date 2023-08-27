@@ -7,6 +7,7 @@ export const StyledOTContainer = styled('div')({
 
 export const StyledTextsContainer = styled('div')({
   marginLeft: '15%',
+  marginRight: '15%',
   display: 'flex',
   flexDirection: 'column',
   gap: '20px',

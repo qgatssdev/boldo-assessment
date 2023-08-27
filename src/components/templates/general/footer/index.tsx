@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <StyledFooterContainer>
       <StyledFooterBox>
-        <StyledHeader>
+        <StyledHeader data-animation='paragraph'>
           An enterprise template to ramp up your company website
         </StyledHeader>
         <StyledInputContainer>

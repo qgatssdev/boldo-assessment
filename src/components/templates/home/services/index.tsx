@@ -14,15 +14,15 @@ import {
 const Services = () => {
   return (
     <StyledServiceContainer>
-      <StyledHeader>Our services</StyledHeader>
-      <StyledTitle>
+      <StyledHeader data-animation='header'>Our services</StyledHeader>
+      <StyledTitle data-animation='header'>
         Handshake infographic mass market crowdfunding iteration.
       </StyledTitle>
       <StyledServiceMockContainer>
         {serviceMock.map((service, id) => (
           <StyledServiceWrapper key={id}>
             <StyledImage src={service.image} alt={service.title} />
-            <StyledText>{service.title}</StyledText>
+            <StyledText data-animation='paragraph'>{service.title}</StyledText>
             <StyledLink>
               Explore page
               <span>

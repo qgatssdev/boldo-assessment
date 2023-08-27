@@ -2,6 +2,7 @@ import { Button } from 'components/atoms/button';
 import Marquee from 'react-fast-marquee';
 import { BoldoLogo } from 'components/atoms/icons';
 import { PrestoLogo } from 'components/atoms/icons';
+import { useMediaQuery } from 'react-responsive';
 import {
   StyledContainer,
   StyledContainerOne,
@@ -19,6 +20,8 @@ import {
 } from './styles';
 
 const Hero = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 576px)' });
+
   const logos = [
     { id: 1, logo: <BoldoLogo fontSize={36} /> },
     { id: 2, logo: <PrestoLogo fontSize={36} /> },
@@ -33,17 +36,17 @@ const Hero = () => {
     <div>
       <StyledContainer>
         <StyledContainerOne>
-          <StyledHeading>
+          <StyledHeading data-animation='header'>
             Save time by building fast with Boldo Template
           </StyledHeading>
-          <StyledSubtitle>
+          <StyledSubtitle data-animation='header'>
             Funding handshake buyer business-to-business metrics iPad
             partnership. First mover advantage innovator success deployment
             non-disclosure.
           </StyledSubtitle>
           <StyledButtonContainer>
-            <Button label='Buy Template' size='lg' />
-            <Button label='Explore' size='md' transparent />
+            <Button label='Buy Template' size={isMobile ? 'sm' : 'lg'} />
+            <Button label='Explore' size={isMobile ? 'sm' : 'md'} transparent />
           </StyledButtonContainer>
         </StyledContainerOne>
         <StyledContainerTwo>

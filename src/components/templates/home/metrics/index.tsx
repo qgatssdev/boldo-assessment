@@ -39,7 +39,7 @@ const Metrics = () => {
         </StyledImageContainerOne>
         <StyledImageContainerTwo>
           <StyledRelativeContainerTwo>
-            <StyledHeading>
+            <StyledHeading data-animation='header'>
               We connect our customers with the best, and help them keep up-and
               stay open.
             </StyledHeading>
@@ -51,7 +51,7 @@ const Metrics = () => {
                 <CheckMark /> Advisor success customer launch party.
               </StyledListItems>
               <StyledListItems>
-                <CheckMark /> Advisor success customer launch party.
+                <CheckMark /> Business-to-consumer long tail.
               </StyledListItems>
             </StyledListContainer>
             <StyledButtonContainer>
@@ -67,7 +67,7 @@ const Metrics = () => {
               We connect our customers with the best, and help them keep up-and
               stay open.
             </StyledHeading>
-            <StyledBarsContainer>
+            <StyledBarsContainer data-animation='fadeInOut'>
               <StyledBar>
                 <img
                   src={require('assets/feather.svg').default}
