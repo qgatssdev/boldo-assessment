@@ -21,10 +21,10 @@ const About = () => {
         <StyledWrapper>
           <StyledAboutTitle>About</StyledAboutTitle>
           <StyledTextsContainer>
-            <StyledTextOne>
+            <StyledTextOne data-animation='header'>
               We love to make great things, things that matter.
             </StyledTextOne>
-            <StyledTextTwo>
+            <StyledTextTwo data-animation='header'>
               Funding handshake buyer business-to-business metrics iPad
               partnership. First mover advantage innovator success deployment
               non-disclosure.
