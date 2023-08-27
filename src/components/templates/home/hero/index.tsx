@@ -1,7 +1,7 @@
-import { Button } from '@atoms/button';
+import { Button } from 'components/atoms/button';
 import Marquee from 'react-fast-marquee';
-import { BoldoLogo } from '@atoms/icons';
-import { PrestoLogo } from '@atoms/icons';
+import { BoldoLogo } from 'components/atoms/icons';
+import { PrestoLogo } from 'components/atoms/icons';
 import {
   StyledContainer,
   StyledContainerOne,
@@ -47,10 +47,10 @@ const Hero = () => {
           </StyledButtonContainer>
         </StyledContainerOne>
         <StyledContainerTwo>
-          <StyledImageOne src={require('@assets/Frame 219.png')} alt='' />
+          <StyledImageOne src={require('assets/Frame 219.png')} alt='' />
           <StyledBottomContainer>
-            <StyledImageTwo src={require('@assets/Group 299.png')} alt='' />
-            <StyledImageThree src={require('@assets/Group 264.png')} alt='' />
+            <StyledImageTwo src={require('assets/Group 299.png')} alt='' />
+            <StyledImageThree src={require('assets/Group 264.png')} alt='' />
           </StyledBottomContainer>
         </StyledContainerTwo>
       </StyledContainer>

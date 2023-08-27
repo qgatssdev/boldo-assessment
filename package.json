@@ -19,15 +19,7 @@
     "react-fast-marquee": "^1.6.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0",
-    "@assets": "link:./src/assets",
-    "@atoms": "link:./src/components/atoms",
-    "@templates": "link:./src/components/templates",
-    "@molecules": "link:./src/components/molecules",
-    "@styles": "link:./src/styles",
-    "@animations": "link:./src/animations",
-    "@providers": "link:./src/providers",
-    "@pages": "link:./src/pages"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

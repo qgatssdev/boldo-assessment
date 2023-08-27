@@ -1,4 +1,4 @@
-import { BoldoLogo } from '@atoms/icons';
+import { BoldoLogo } from 'components/atoms/icons';
 import {
   StyledButton,
   StyledEclipse,
@@ -30,7 +30,7 @@ const Footer = () => {
           <StyledButton>Start now</StyledButton>
         </StyledInputContainer>
         <StyledEclipse
-          src={require('@assets/eclipse.svg').default}
+          src={require('assets/eclipse.svg').default}
           alt='eclipse'
         />
       </StyledFooterBox>
@@ -53,8 +53,9 @@ const Footer = () => {
           <StyledUl>
             <StyledlistHeader>Company</StyledlistHeader>
             <StyledLi>Home</StyledLi>
-            <StyledLi>Careers
-                <StyledHiring>Hiring!</StyledHiring>
+            <StyledLi>
+              Careers
+              <StyledHiring>Hiring!</StyledHiring>
             </StyledLi>
             <StyledLi>Services</StyledLi>
           </StyledUl>

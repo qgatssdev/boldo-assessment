@@ -3,8 +3,8 @@ import {
   StyledListContainer,
   StyledListItems,
 } from './styles';
-import { BoldoLogo } from '@atoms/icons';
-import { Button } from '@atoms/button';
+import { BoldoLogo } from 'components/atoms/icons';
+import { Button } from 'components/atoms/button';
 
 const Header = () => {
   return (

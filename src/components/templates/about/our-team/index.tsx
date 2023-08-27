@@ -1,4 +1,4 @@
-import { teams } from 'src/mockdata/teams';
+import { teams } from 'mockdata/teams';
 import {
   StyledGMContainer,
   StyledGMImage,

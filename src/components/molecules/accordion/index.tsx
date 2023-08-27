@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, ChevronUp } from '@atoms/icons';
+import { ChevronDown, ChevronUp } from 'components/atoms/icons';
 import {
   StyledAccordionItem,
   StyledAccordionText,

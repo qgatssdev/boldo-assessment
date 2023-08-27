@@ -1,5 +1,5 @@
-import { CheckMark } from '@atoms/icons';
-import { Button } from '@atoms/button';
+import { CheckMark } from 'components/atoms/icons';
+import { Button } from 'components/atoms/button';
 import {
   StyledMetricContainer,
   StyledContainer,
@@ -28,11 +28,11 @@ const Metrics = () => {
         <StyledImageContainerOne>
           <StyledRelativeContainer>
             <StyledImage
-              src={require('@assets/Rectangle 1270.png')}
+              src={require('assets/Rectangle 1270.png')}
               alt='phone-call'
             />
             <StyledBarChart
-              src={require('@assets/Group 209.png')}
+              src={require('assets/Group 209.png')}
               alt='bar-chart'
             />
           </StyledRelativeContainer>
@@ -70,17 +70,17 @@ const Metrics = () => {
             <StyledBarsContainer>
               <StyledBar>
                 <img
-                  src={require('@assets/feather.svg').default}
+                  src={require('assets/feather.svg').default}
                   alt='feather'
                 />
                 We connect our customers with the best.
               </StyledBar>
               <StyledBarWhite>
-                <img src={require('@assets/eye.svg').default} alt='eye' />
+                <img src={require('assets/eye.svg').default} alt='eye' />
                 Adivsor success customer launch party.
               </StyledBarWhite>
               <StyledBarWhite>
-                <img src={require('@assets/sun.svg').default} alt='sun' />
+                <img src={require('assets/sun.svg').default} alt='sun' />
                 Business-to-consumer long tail
               </StyledBarWhite>
             </StyledBarsContainer>
@@ -89,11 +89,11 @@ const Metrics = () => {
         <StyledImageContainerOne>
           <StyledRelativeContainer>
             <StyledImageTwo
-              src={require('@assets/Rectangle 1270 woman.png')}
+              src={require('assets/Rectangle 1270 woman.png')}
               alt='phone-call'
             />
             <StyledPieChart
-              src={require('@assets/Group 222.png')}
+              src={require('assets/Group 222.png')}
               alt='pie-chart'
             />
           </StyledRelativeContainer>

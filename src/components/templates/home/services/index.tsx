@@ -1,4 +1,4 @@
-import { RightArrow } from '@atoms/icons';
+import { RightArrow } from 'components/atoms/icons';
 import { serviceMock } from '../../../../mockdata/service-mock';
 import {
   StyledServiceContainer,

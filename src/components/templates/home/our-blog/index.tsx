@@ -1,8 +1,11 @@
-import Accordion from '@molecules/accordion';
-import BlogCard from '@molecules/blog-card';
-import { Button } from '@atoms/button';
-import { blogPosts, BlogPostsProps } from '../../../../mockdata/blogposts';
-import { AccordionData, accordionData } from '../../../../mockdata/accordionData';
+import Accordion from 'components/molecules/accordion';
+import BlogCard from 'components/molecules/blog-card';
+import { Button } from 'components/atoms/button';
+import { blogPosts, BlogPostsProps } from 'mockdata/blogposts';
+import {
+  AccordionData,
+  accordionData,
+} from 'mockdata/accordionData';
 import {
   StyledBlogContainer,
   StyledImageHero,
@@ -19,7 +22,7 @@ import {
 const OurBlog = () => {
   return (
     <StyledBlogContainer>
-      <StyledImageHero src={require('@assets/office.png')} alt='office' />
+      <StyledImageHero src={require('assets/office.png')} alt='office' />
       <StyledWrapper>
         <StyledParagraph>
           We connect our customers with the best, and help them keep up-and stay

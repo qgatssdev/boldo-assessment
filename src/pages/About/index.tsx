@@ -1,9 +1,9 @@
-import Header from '@templates/general/header';
-import Footer from '@templates/general/footer';
-import OurNumbers from '@templates/about/our-numbers';
-import OurStory from '@templates/about/our-story';
-import OurTeam from '@templates/about/our-team';
-import OurBlog from '@templates/about/our-blog';
+import Header from 'components/templates/general/header';
+import Footer from 'components/templates/general/footer';
+import OurNumbers from 'components/templates/about/our-numbers';
+import OurStory from 'components/templates/about/our-story';
+import OurTeam from 'components/templates/about/our-team';
+import OurBlog from 'components/templates/about/our-blog';
 import {
   StyledAboutTitle,
   StyledHeaderContainer,

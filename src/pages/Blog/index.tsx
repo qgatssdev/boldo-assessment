@@ -1,8 +1,8 @@
-import Header from '@templates/general/header';
-import Footer from '@templates/general/footer';
-import { Button } from '@atoms/button';
-import BlogCard from '@molecules/blog-card';
-import { blogPosts, BlogPostsProps } from 'src/mockdata/blogposts';
+import Header from 'components/templates/general/header';
+import Footer from 'components/templates/general/footer';
+import { Button } from 'components/atoms/button';
+import BlogCard from 'components/molecules/blog-card';
+import { blogPosts, BlogPostsProps } from 'mockdata/blogposts';
 import {
   StyledAvatar,
   StyledButtonContainer,
@@ -27,7 +27,7 @@ const Blog = () => {
       <StyledHeading>Blog</StyledHeading>
       <StyledThoughts>Thoughts and wirds</StyledThoughts>
       <StyledContainer>
-        <StyledHeroImage src={require('@assets/heroimage.png')} />
+        <StyledHeroImage src={require('assets/heroimage.png')} />
         <div>
           <StyledFlexContainer>
             <StyledCategory>Category</StyledCategory>
@@ -38,7 +38,7 @@ const Blog = () => {
           </StyledTitle>
           <StyledFlexContainer>
             <StyledAvatar
-              src={require('@assets/blogposts/chandler bling.png')}
+              src={require('assets/blogposts/chandler bling.png')}
               alt='chandler'
             />
             <StyledName>Chandler Bing</StyledName>

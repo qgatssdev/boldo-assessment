@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { AppThemeProvider } from '@providers/index';
+import { AppThemeProvider } from 'providers/index';
 import './index.css';
 import App from './App';
 
