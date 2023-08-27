@@ -115,6 +115,7 @@ export const StyledButtonContainer = styled('div')({
   display: 'flex',
   justifyContent: 'center',
   marginTop: '80px',
+  marginBottom: '80px',
 });
 
 export const StyledPostsContainer = styled('div')({
