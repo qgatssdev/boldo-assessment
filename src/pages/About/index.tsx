@@ -18,6 +18,7 @@ import {
 const About = () => {
   useEffect(() => {
     split();
+    document.title='About | Save time by building fast with Boldo Template';
 });
 
   return (

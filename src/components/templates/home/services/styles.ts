@@ -4,6 +4,7 @@ export const StyledServiceContainer = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
   paddingTop: '100px',
   paddingBottom: '100px',
+  marginTop: '100px',
 }));
 
 export const StyledHeader = styled('h1')(({ theme }) => ({

@@ -80,6 +80,7 @@ export const StyledHeading = styled('h1')(({ theme }) => ({
   lineHeight: '56px',
   fontWeight: 400,
   maxWidth: '493px',
+  padding: '10px',
 
   '@media (max-width: 576px)': {
     fontSize: '18px',

@@ -6,12 +6,14 @@ import Metrics from 'components/templates/home/metrics';
 import Services from 'components/templates/home/services';
 import OurBlog from 'components/templates/home/our-blog';
 import Footer from 'components/templates/general/footer';
+import Slider from 'components/templates/home/slider';
 import { StyledContainer, StyledEclipse, StyledHeroContainer } from './styles';
 
 const Home = () => {
   useEffect(() => {
     split();
-});
+    document.title = 'Home | Save time by building fast with Boldo Template';
+  });
 
   return (
     <StyledContainer>
@@ -25,6 +27,7 @@ const Home = () => {
       </StyledHeroContainer>
       <Services />
       <Metrics />
+      <Slider />
       <OurBlog />
       <Footer />
     </StyledContainer>

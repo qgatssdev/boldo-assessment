@@ -19,19 +19,19 @@ const OurNumbers = () => {
       <StyledStatContainer>
         <StyledStatItems>
           <StyledStatCount>
-            <CountUp end={100} />m
+            <CountUp end={100} delay={2} />m
           </StyledStatCount>
           <StyledStatText>Cool feature title</StyledStatText>
         </StyledStatItems>
         <StyledStatItems>
           <StyledStatCount>
-            <CountUp end={10.0} decimals={3} />
+            <CountUp end={10.0} decimals={3} delay={2} />
           </StyledStatCount>
           <StyledStatText>Cool feature title</StyledStatText>
         </StyledStatItems>
         <StyledStatItems>
           <StyledStatCount>
-            <CountUp end={240} />
+            <CountUp end={240} delay={2} />
           </StyledStatCount>
           <StyledStatText>Cool feature title</StyledStatText>
         </StyledStatItems>

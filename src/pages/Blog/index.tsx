@@ -25,6 +25,7 @@ import {
 const Blog = () => {
   useEffect(() => {
     split();
+    document.title='Blog | Save time by building fast with Boldo Template';
   });
 
   return (
