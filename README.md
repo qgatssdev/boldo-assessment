@@ -1,4 +1,4 @@
-# Tools and packages Used
+# Tools and Packages Used
 React <br /> 
 Typescript <br /> 
 Material UI <br /> 
