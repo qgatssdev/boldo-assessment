@@ -19,9 +19,14 @@ export const StyledSmallButton = styled(ButtonConstant, {
   height: '40px',
   borderRadius: '24px',
   background: transparent ? 'none' : theme.palette.primary.main,
-  color: transparent ? 'none' : theme.palette.common.white,
+  color: transparent ? theme.palette.common.black : theme.palette.common.white,
   fontSize: '16px',
   transition: '1s',
+
+  '@media (max-width:576px)': {
+    fontSize: '13px',
+    fontWeight: '400',
+  },
 
   '&:hover': {
     background: transparent ? theme.palette.primary.main : 'none',
@@ -38,7 +43,7 @@ export const StyledMediumButton = styled(ButtonConstant, {
   height: '60px',
   borderRadius: '56px',
   background: transparent ? 'none' : theme.palette.primary.main,
-  color: transparent ? 'none' : theme.palette.common.white,
+  color: transparent ? theme.palette.common.black : theme.palette.common.white,
   fontSize: '20px',
   transition: '1s',
 
@@ -57,7 +62,7 @@ export const StyledLargeButton = styled(ButtonConstant, {
   height: '60px',
   borderRadius: '56px',
   background: transparent ? 'none' : theme.palette.primary.main,
-  color: transparent ? 'none' : theme.palette.common.white,
+  color: transparent ? theme.palette.common.black : theme.palette.common.white,
   fontSize: '20px',
   transition: '1s',
 
