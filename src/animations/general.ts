@@ -41,6 +41,6 @@ export const setHoverAnimation = (element: HTMLAnchorElement | null) => {
 
   return () => {
     element.removeEventListener('mousemove', handleMouseMove);
-    element.removeEventListener('mousemove', handleMouseLeave);
+    element.removeEventListener('mouseleave', handleMouseLeave);
   };
 };
